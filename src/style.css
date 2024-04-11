@@ -1,3 +1,39 @@
 html {
   scroll-behavior: smooth;
 }
+
+.hello_peter_gif {
+  position: center;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(0%, 20%);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar_li {
+  float: left;
+}
+
+.navbar_a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar_a:hover{
+  background-color: #111
+}
