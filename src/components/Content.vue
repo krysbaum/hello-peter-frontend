@@ -41,10 +41,11 @@ export default {
 <template>
   <main>
     <h1>Hello, Peter!</h1>
-    <QuotesIndex v-bind:quotes="quotes" />
     <img className="hello_peter_gif" height="300" src="https://media.tenor.com/sldhKegIadAAAAAi/hello-peter-otto-octavius.gif" alt="" />
     <br></br>
     <br></br>
+    <br></br>
+    <QuotesIndex v-bind:quotes="quotes" />
     <QuotesNew v-on:createQuote="handleCreateQuote" />
   </main>
 </template>
