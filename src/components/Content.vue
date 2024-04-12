@@ -10,7 +10,7 @@ export default {
   },
   data: function () {
     return {
-      photos: [],
+      quotes: [],
     };
   },
   created: function () {
@@ -41,11 +41,11 @@ export default {
 <template>
   <main>
     <h1>Hello, Peter!</h1>
+    <QuotesIndex v-bind:quotes="quotes" />
     <img className="hello_peter_gif" height="300" src="https://media.tenor.com/sldhKegIadAAAAAi/hello-peter-otto-octavius.gif" alt="" />
     <br></br>
     <br></br>
     <QuotesNew v-on:createQuote="handleCreateQuote" />
-    <QuotesIndex v-bind:quotes="quotes" />
   </main>
 </template>
 
