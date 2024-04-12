@@ -53,6 +53,7 @@ export default {
     },
     handleClose: function () {
       this.isQuotesShowVisible = false;
+      window.location.reload(true)
     },
   },
 };
