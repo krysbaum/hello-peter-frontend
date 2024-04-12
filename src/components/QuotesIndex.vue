@@ -1,7 +1,7 @@
 <script>
 export default {
   props: {
-    photos: Array,
+    quotes: Array,
   },
 };
 </script>
@@ -10,10 +10,8 @@ export default {
   <div>
     <h1>All quotes</h1>
     <div v-for="quote in quotes" v-bind:key="quote.id">
-      <h2>{{ quote.name }}</h2>
-      <imag v0-bind:src="quote.url" />
-      <p>Width: {{ quote.width }}</p>
-      <p>Height: {{ quote.height }}</p>
+      <h2>{{ quote.body }}</h2>
+      <!-- <p>Rarity: {{ quote.rarity }}</p> -->
     </div>
   </div>
 </template>
