@@ -10,7 +10,10 @@ html {
 }
 
 .footer {
-  position: absolute;
+  background-color: lightslategray;
+  font-style: italic;
+  color: white;
+  position: fixed;
   bottom: 0;
 }
 
